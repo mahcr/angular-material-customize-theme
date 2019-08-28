@@ -1,0 +1,28 @@
+@import '~@angular/material/theming';
+@import './palettes/primary';
+@import './partials/index';
+
+// Theming Documentation
+// https://material.angular.io/guide/theming
+
+// All Material mixins https://github.com/angular/components/blob/master/src/material/core/theming/_all-theme.scss
+
+// Material Components
+// https://github.com/angular/components/tree/master/src/material
+
+
+// Typography Customization
+// https://material.angular.io/guide/typography
+
+
+// General Customization Guides
+// https://material.angular.io/guides
+
+// Default theme
+@include component-theming($primary-theme);
+
+.dark {
+  // @include component-theming($dark-theme);
+}
+
+@include mat-core();
